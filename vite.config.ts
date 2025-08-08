@@ -7,5 +7,5 @@ export default defineConfig(({ command }) => ({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: command === 'serve' ? '/' : '/Portafolio_Daniel_Jimenez/',
+  base: command === 'serve' ? '/' : '/portafoliodj/',
 }));
